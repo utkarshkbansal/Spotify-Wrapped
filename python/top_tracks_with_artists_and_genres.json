@@ -1,0 +1,66 @@
+[
+    {
+        "name": "FUK SUMN",
+        "artists": [
+            {
+                "name": "\u00a5$",
+                "genres": []
+            },
+            {
+                "name": "Kanye West",
+                "genres": [
+                    "chicago rap",
+                    "hip hop",
+                    "rap"
+                ]
+            },
+            {
+                "name": "Ty Dolla $ign",
+                "genres": [
+                    "hip hop",
+                    "pop rap",
+                    "r&b",
+                    "southern hip hop",
+                    "trap",
+                    "trap soul"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "goosebumps",
+        "artists": [
+            {
+                "name": "Travis Scott",
+                "genres": [
+                    "hip hop",
+                    "rap",
+                    "slap house"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "FE!N (feat. Playboi Carti)",
+        "artists": [
+            {
+                "name": "Travis Scott",
+                "genres": [
+                    "hip hop",
+                    "rap",
+                    "slap house"
+                ]
+            },
+            {
+                "name": "Playboi Carti",
+                "genres": [
+                    "atl hip hop",
+                    "plugg",
+                    "pluggnb",
+                    "rage rap",
+                    "rap"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.spotifywrap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpotifyWrap"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.home.ChangeAccount"
+            android:exported="false"
+            android:label="@string/title_activity_change_account"
+            android:theme="@style/Theme.SpotifyWrap" />
+        <activity
+            android:name=".ui.home.DisplayDuoWrapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_display_duo_wrap"
+            android:theme="@style/Theme.SpotifyWrap" />
+        <activity
+            android:name=".ui.home.DuoWrap"
+            android:exported="false"
+            android:label="@string/title_activity_duo_wrap"
+            android:theme="@style/Theme.SpotifyWrap" />
+        <activity
+            android:name=".ui.home.YourWrap"
+            android:exported="false"
+            android:label="@string/title_activity_your_wrap"
+            android:theme="@style/Theme.SpotifyWrap" />
+        <activity
+            android:name=".ui.home.TopArtists"
+            android:exported="false"
+            android:label="@string/title_activity_top_artists"
+            android:theme="@style/Theme.SpotifyWrap" />
+        <activity
+            android:name=".ui.home.RecentSongs"
+            android:exported="false"
+            android:label="@string/title_activity_recent_songs"
+            android:theme="@style/Theme.SpotifyWrap" />
+        <activity
+            android:name=".ui.home.TopTracksActivity"
+            android:exported="false"
+            android:label="activity_top_tracks" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.home.Login"
+            android:label="Login" />
+        <activity android:name=".ui.home.TopGenre" />
+        <activity
+            android:name=".ui.home.GenAIUserActionsActivity"
+            android:label="Gen AI User Actions Activity">
+        </activity>
+        <activity
+            android:name=".ui.home.GenAIUserThoughtsActivity"
+            android:label="Gen AI User Thoughts Activity">
+        </activity>
+        <activity
+            android:name=".ui.home.GenAIUserDressActivity"
+            android:label="Gen AI User Dress Activity">
+        </activity>
+    </application>
+
+</manifest>

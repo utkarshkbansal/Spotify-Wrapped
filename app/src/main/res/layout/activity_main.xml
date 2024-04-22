@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize">
+
+    <Button
+        android:id="@+id/accountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSpotifyLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/greetingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, User!"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/buttonSpotifyLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Other buttons positioned below -->
+    <Button
+        android:id="@+id/buttonRecentlyPlayedSong"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Get Recently Played Song"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/greetingMessage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonTopTracks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Your Wrap"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/buttonRecentlyPlayedSong"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonMusicTaste"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Music Taste"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/buttonTopTracks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonDuoWrapped"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Duo Wrapped"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/buttonMusicTaste"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
